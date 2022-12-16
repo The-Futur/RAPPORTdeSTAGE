@@ -1,0 +1,66 @@
+.FlexBox{
+    display: flex;
+    align-items: center;
+}
+
+.centre_pdf{
+    height: 850px;
+    width: 70%;
+    margin-inline: auto;
+}
+
+h1{
+text-align: center;
+border-style: dashed;
+color: rgb(0, 169, 236);
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+}
+
+h5{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
