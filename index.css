@@ -60,5 +60,37 @@ h4{
 }
 
 .button:hover{
- color: red;   
+ color: rgb(0, 138, 255); 
+ background: url('5.jpg') no-repeat ;
+ background-size: cover;
+}
+
+.button2:hover{
+    color: red;  
+   }
+
+   .button3:hover{
+    color: rgb(20, 111, 0);   
+   }
+
+   .button{
+    color: rgb(20, 111, 0);    
+   }
+   
+   .button2{
+       color:  rgb(0, 138, 255);   
+       background: url('5.jpg') no-repeat ;
+       background-size: cover;
+      }
+   
+      .button3{
+       color:  red;     
+      }
+   
+
+
+.dam{
+    align-items: center;
+    margin: 0 auto;
+width: 75%;
 }
