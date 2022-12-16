@@ -1,0 +1,23 @@
+body {
+    background: url('66.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+border: solid rgb(20, 111, 0); 
+border-radius: 15px;
+}
+
+.W{
+    color: azure;
+    text-align: center;
+}

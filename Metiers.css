@@ -1,133 +1,29 @@
-body{
-    background: url('soft-c.webp') no-repeat ;
+body {
+    background: url('soft-c.webp') no-repeat;
     background-size: cover;
-    }
+}
 
 
 
 
-.wrapper{
+.wrapper {
     margin: 0 auto;
     width: 500px;
 }
 
-h1{
+h1 {
     text-align: center;
     border-style: dashed;
-    color: red;  
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    color: red;
+}
+
+.centre_pdf {
+    height: 750px;
+    width: 70%;
+    margin-inline: auto;
+}
+
+.FlexBox{
+    display: flex;
+    align-items: center;
+}

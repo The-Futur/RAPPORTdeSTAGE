@@ -59,44 +59,45 @@ h4{
     text-align: center;
 }
 
-.button:hover{
+.button.hover {
  color: rgb(0, 138, 255); 
  background: url('5.jpg') no-repeat ;
  background-size: cover;
+ border: none;
 }
 
-.button2:hover{
-    color: red;  
-    background: url('soft-c.webp') no-repeat ;
-    background-size: cover;
-   }
-
-   .button3:hover{
-    color: red;  
-    background: url('soft-c.webp') no-repeat ;
-    background-size: cover;
-   }
-
-   .button{
+.button2.hover{
     color: rgb(20, 111, 0);    
-   }
-   
-   .button2{
-    color: red;  
-    background: url('soft-c.webp') no-repeat ;
-    background-size: cover;
-      }
-   
-      .button3{
-        color:  rgb(0, 138, 255);   
-        background: url('5.jpg') no-repeat ;
-        background-size: cover;
-      }
-   
+    background: none;
+    border: none;
+}
+
+.button3.hover{
+color: red;  
+background: url('soft-c.webp') no-repeat ;
+background-size: cover;
+border: none;
+}
+
+.button{
+ border: 2px solid rgb(0, 138, 255);
+}
+
+.button2{
+    border: 2px solid rgb(20, 111, 0);
+
+}
+
+.button3{
+    border: 2px solid red;  
+}
+
 
 
 .dam{
-    align-items: center;
     margin: 0 auto;
 width: 75%;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+gap: 25px 50px;
 }
