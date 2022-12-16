@@ -20,12 +20,25 @@ color: rgb(0, 169, 236);
     width: 500px;
 }
 
-h5{
+h2{
     text-align: center;
     text-decoration: underline;
 }
 
+.end{
+    text-align: center;
+    text-decoration: solid;
+}
 
+.end1{
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+    color: rgb(0, 136, 255);
+}
+
+.button:hover{
+    color: rgb(0, 136, 255);
+}
 
 
 
