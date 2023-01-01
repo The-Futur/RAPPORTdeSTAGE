@@ -1,4 +1,103 @@
+body{
+    background: url('background.webp') no-repeat ;
+    background-size: cover;
+    }
+
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.inline{
+margin: 0 auto;
+width: 600px;
+}
+
+#FlexBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
+    text-align: center;
+
+}
+
+#FlexBox img{
+    flex:1
+
+}
+
+#FlexBox .wrapper{
+    
+}
+
+
 h1{
     text-decoration: underline;
     text-shadow: 3px;
+    text-align: center;
+    color: rgb(154, 53, 171);
+    border: 3px;
+    border-style: double;
+
+}
+h2{
+    text-align: center;
+    
+}
+
+h3{
+    text-align: center;
+    -moz-text-decoration-style: wavy;
+}
+
+h4{
+    text-decoration: wavy;
+}
+
+#imagetext{
+    text-align: center;
+}
+
+.button.hover {
+ color: rgb(0, 138, 255); 
+ background: url('5.jpg') no-repeat ;
+ background-size: cover;
+ border: none;
+}
+
+.button2.hover{
+    color: rgb(20, 111, 0);    
+    background: none;
+    border: none;
+}
+
+.button3.hover{
+color: red;  
+background: url('soft-c.webp') no-repeat ;
+background-size: cover;
+border: none;
+}
+
+.button{
+ border: 2px solid rgb(0, 138, 255);
+}
+
+.button2{
+    border: 2px solid rgb(20, 111, 0);
+
+}
+
+.button3{
+    border: 2px solid red;  
+}
+
+
+
+.dam{
+    margin: 0 auto;
+width: 75%;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+gap: 25px 50px;
 }
